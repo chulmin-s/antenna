@@ -121,7 +121,7 @@
         background:#fafafa;
         position: relative;
 
-        &:after{
+        &:before{
             display:block;
             content:"";
             background:url("../images/antenna_logo.png")no-repeat center;
@@ -135,29 +135,53 @@
             height:100px;
         }
 
-    }
+        &:after{
+            display:block;
+            content:"";
+            clear:both;
+        }
 
-    &-list{
-
-        &-item{
-            width:100%;
-            height:420px;
+        &-list{
+            width:40%;
 
             &:after{
                 display:block;
                 content:"";
                 clear:both;
             }
+
+            &-item{
+                padding:20px;
+                margin-bottom:20px;
+            }
+
+            &-title{
+                font-weight:600;
+                margin-bottom:10px;
+                line-height:1.5;
+            }
+
+            &-date{
+                font-size:16px;
+                font-weight:500;
+                font-family:'Roboto', sans-serif;
+                color:#9e9e9e;
+                margin-bottom:20px;
+            }
+
+            &-img{
+
+                & img{
+                    width:100%;
+                    height:100%;
+                }
+            }
         }
 
-        .ht220{
-            height:220px;
-        }
-
-        &-left{
-            width:40%;
-            height:100%;
+        .left{
+            text-align:right;
             float:left;
+            padding-top:80px;
             position:relative;
 
             &:after{
@@ -170,57 +194,29 @@
                 width:1px;
                 height:100%;
                 background:#000;
-
             }
-        }
 
-        &-img{
-            height:100%;
-
-            & img{
-                width:100%;
-                height:100%;
-            }
-        }
-
-        &-right{
-            width:40%;
-            height:100%;
-            float:right;
-            position: relative;
-
-            .yellow{
-                text-indent:-9999px;
+            &-yellow{
                 position: absolute;
-                top:93px;
+                right:-25%;
+                margin-right:-8px;
+                z-index:10;
+                margin-top:5px;
+            }
+        }
+
+        .right{
+            float:right;
+            position:relative;
+
+            &-yellow{
+                position:absolute;
                 left:-25%;
                 margin-left:-8px;
-                z-index:20;
-                border-top:10px solid #fafafa;
-                border-bottom:10px solid #fafafa;
-
+                z-index:10;
+                margin-top:5px;
             }
-        }
-
-        &-text{
-            padding:100px 20px 0 20px;
-
-            &-title{
-                font-size:18px;
-                font-weight:600;
-                line-height:1.5;
-            }
-
-            &-date{
-                margin-top:20px;
-                font-size:17px;
-                color:#9e9e9e;
-            }
-
-        }
-
-        .text-right{
-            text-align:right;
         }
     }
+
 }

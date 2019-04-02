@@ -16,4 +16,8 @@ $(function(){
         $('.gnbBtn, .gnbWrap').toggleClass('on');
     });
 
+    $('.share-button').on('click',function(){
+        $('.sns').toggleClass('on');
+    });
+
 });
