@@ -142,6 +142,13 @@
     }
 }
 
+@media screen and (max-width:1262px) {
+
+    .contents-list-item .popup-wrap-video-list{
+        width:100%;
+    }
+}
+
 @media screen and (max-width:768px){
 
     .releases-text{
@@ -169,4 +176,25 @@
             }
         }
     }
+
+    .track{
+        width:100%;
+
+        &-table{
+
+            th,td{
+                font-size:12px;
+            }
+        }
+    }
+
+    .track-table caption{
+        font-size:16px;
+    }
+
+    .popup-wrap-video-title{
+        font-size:16px;
+    }
+
+
 }
