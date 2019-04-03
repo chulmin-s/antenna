@@ -273,6 +273,10 @@
             object-fit: fill;
         }
 
+        & img{
+            display:none;
+        }
+
         &-text{
             position:absolute;
             bottom:0;
@@ -369,8 +373,18 @@
         &-video{
             height:calc(100vh - 160px);
 
+            & video{
+                display:none;
+            }
+
             &-text{
                 font-size:26px;
+            }
+
+            & img{
+                display:block;
+                width:100%;
+                height:100%;
             }
         }
     }
