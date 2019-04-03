@@ -245,7 +245,9 @@
 }
 
 .visual{
+    height:calc(100vh - 240px);
     padding-top:120px;
+
 
     &-text{
         font-size:52px;
@@ -337,6 +339,7 @@
 
     .visual{
         padding-top:80px;
+        height:calc(100vh - 120px);
 
         &-text{
             font-size:30px;
