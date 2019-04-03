@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48091e23-97bd-428f-aeb4-431c6fd889e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_src/_antenna_1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css_src/_antenna_1.scss" afterDir="false" />
     </list>
@@ -51,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css_src/_antenna_1.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="341" column="31" selection-start-line="341" selection-start-column="31" selection-end-line="341" selection-end-column="31" />
+            <state relative-caret-position="494">
+              <caret line="248" column="8" lean-forward="true" selection-start-line="248" selection-start-column="8" selection-end-line="248" selection-end-column="8" />
               <folding>
                 <element signature="e#192#299#0" />
                 <element signature="e#312#382#0" />
@@ -298,12 +297,12 @@
       <workItem from="1553999373100" duration="371000" />
       <workItem from="1553999752840" duration="3000" />
       <workItem from="1553999811832" duration="21132000" />
-      <workItem from="1554251166272" duration="7308000" />
+      <workItem from="1554251166272" duration="7712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30031000" />
+    <option name="totallyTimeSpent" value="30435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -618,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css_src/_antenna_1.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="341" column="31" selection-start-line="341" selection-start-column="31" selection-end-line="341" selection-end-column="31" />
+        <state relative-caret-position="494">
+          <caret line="248" column="8" lean-forward="true" selection-start-line="248" selection-start-column="8" selection-end-line="248" selection-end-column="8" />
           <folding>
             <element signature="e#192#299#0" />
             <element signature="e#312#382#0" />
