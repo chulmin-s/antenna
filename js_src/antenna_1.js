@@ -1,4 +1,8 @@
 $(function(){
+    $('.share-button').on('click',function(){
+        $('.share-button').toggleClass('on');
+    });
+
     $(window).scroll(function(){
 
         var st = 0;
